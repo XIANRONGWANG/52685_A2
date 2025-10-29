@@ -3,7 +3,7 @@
 
 A creative TunePad project exploring how Python code can generate music by combining **logic, rhythm, and emotion**.
 
-## 🎯 Overview
+## Overview
 This project reimagines two iconic songs using computational thinking:
 - **The White Stripes – “Seven Nation Army”** (Rock: technical precision)  
 - **Justin Bieber – “Baby”** (Pop: emotional layering and harmony)
