@@ -4,7 +4,7 @@
 A creative TunePad project exploring how Python code can generate music by combining **logic, rhythm, and emotion**.
 
 ## Overview
-This project reimagines two iconic songs using computational thinking:
+Covers the chorus of two popular tracks using Python coding through Tunepad objects (instruments):
 - **The White Stripes – “Seven Nation Army”** (Rock: technical precision)  
 - **Justin Bieber – “Baby”** (Pop: emotional layering and harmony)
 
@@ -27,22 +27,26 @@ Project/
 │   ├── Higher_Octave.py                  # Upper octave (pitch +12 semitones)
 │   ├── Lower_Octave.py                   # Lower octave (pitch -12 semitones)
 │
-└── TWS_SNA/                              # The White Stripes – Seven Nation Army (Rock/Technical)
-    ├── Drums_Ch.py                       # Basic drum pattern
-    ├── Drums_Ch_Structured.py            # Drum structure using loops
-    ├── Piano_Ch.py                       # Main riff in piano (MIDI 64–60 range)
-    ├── Piano_Ch_Structured.py            # Structured version using functions
-
+├──TWS_SNA/                              # The White Stripes – Seven Nation Army (Rock/Technical)
+│   ├── Drums_Ch.py                       # Basic drum pattern
+│   ├── Drums_Ch_Structured.py            # Drum structure using loops
+│   ├── Piano_Ch.py                       # Main riff in piano (MIDI 64–60 range)
+│   ├── Piano_Ch_Structured.py            # Structured version using functions
+│
+├──Tracks/ 
+│   ├── Screen_Recoding.mp4 #1 to #7      # Screen-recordings of all the tracks
+│   ├── README.md
+│
+├── README.md
 
 ```
 
 
 
-## Learning Focus
-- Applying programming logic to musical emotion  
-- Exploring abstraction and modular design in TunePad  
-- Creating harmonic richness using octave transposition (+/-12 semitones)
+## Learning Focus and Outcome
+- Application of compuational logic expressed through music
+- SHowcasing abstraction in case of Tunepad entities modularity in terms of items usage
+- Exploring higher and lower octaves by approx 12 semitones to enrich harmony
 
 ## License
-For educational, non-commercial use only.  
-All original songs belong to their respective copyright owners.
+For educational, non-commercial use only
