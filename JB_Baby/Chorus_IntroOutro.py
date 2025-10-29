@@ -12,14 +12,13 @@
 #   70 = A# (Bb)
 #   72 = C
 #
-# Tempo suggestion: ~130 BPM
+# Tempo: 130 BPM
 
 def n(p,b): playNote(p, beats=b)
 def r(b):   rest(b)
 
 
 # INTRO – Freestyle jam into groove
-# (Loose feel — start with suspended chords + build tension)
 
 n(60,0.4); n(63,0.4); n(67,0.6); r(0.2)
 n(65,0.4); n(68,0.4); n(72,0.6); r(0.2)
