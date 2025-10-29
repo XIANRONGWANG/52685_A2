@@ -15,20 +15,19 @@
 #   70 = A# (Bb)
 #   72 = C
 #
-# Tempo suggestion: ~130 BPM
+# Tempo : 130 BPM
 
 def n(p, b): playNote(p, beats=b)
 def r(b):    rest(b)
 
 
 # 1) INTRO: "groovy_intro"
-# Goal: more groove, more bounce
-# - short stabs, call/response
-# - syncopation instead of long floaty notes
+# more groove, more bounce
+
 
 def groovy_intro():
-    # We'll loop a 2-bar groove twice.
-    # Think of it like the band warming up.
+    # Loop a 2-bar groove twice.
+    # Like the band warming up.
     for _ in range(2):
         # Bar A: punchy chord tones climbing
         n(60,0.4); r(0.1)   # C stab
@@ -40,10 +39,10 @@ def groovy_intro():
         # lil reply lick
         n(70,0.3); n(72,0.3); n(74,0.4); r(0.3)
 
-        # Bar B: chromatic walk gives it that "jam session" feel
+        # Bar B: chromatic walk
         n(63,0.25); n(64,0.25); n(65,0.25); n(67,0.4); r(0.1)
         n(70,0.4); n(72,0.4); r(0.2)
-        # drop, leave pocket
+        # drop
         n(67,0.6); r(0.4)
 
     # tension chord hold before chorus
@@ -51,7 +50,7 @@ def groovy_intro():
 
 
 # 2) CHORUS: "main_chorus"
-# We break the chorus into:
+# Break the chorus into:
 #    - phrase_baby(): "baby, baby, baby [oh/no]"
 #    - phrase_mine(): "thought you'd always be mine"
 #
@@ -103,7 +102,7 @@ def phrase_mine():
     n(63,1.4); r(0.5)   # D# sigh out
 
 def main_chorus():
-    # We call phrase_baby 3 times with different endings to
+    # Call phrase_baby 3 times with different endings to
     # match "oh", "no", "oh" from the original hook,
     # then finish with phrase_mine().
     phrase_baby(end_note=70, end_hold=1.6)  # "...baby, baby, baby OH"
@@ -113,10 +112,7 @@ def main_chorus():
 
 
 # 3) OUTRO: "groovy_outro"
-# Goal: more groove than before.
-# - Bouncy call/response riffs
-# - Little looping lick to prove you understand iteration
-# - Ends with a confident drop
+# more groove than before.
 
 
 def groovy_outro():
