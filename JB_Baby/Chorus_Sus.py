@@ -11,7 +11,7 @@
 #   70 = A# (Bb)
 #   72 = C
 #
-# Tempo suggestion: ~130 BPM
+# Tempo :130 BPM
 
 def n(p,b): playNote(p,beats=b)
 def r(b):   rest(b)
@@ -61,7 +61,7 @@ n(65,0.3); r(0.05)    # grace note F→G
 n(67,1.6); r(0.3)     # strong, soulful hold
 
 # second "mine" (echo, falling)
-n(65,0.8); r(0.2)     # soft answer on F
+n(65,0.8); r(0.2)     # soft F
 
 # emotional descent – let the melody “fall apart”
 n(65,0.4); r(0.05)
