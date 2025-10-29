@@ -6,7 +6,7 @@
 #
 
 def n(p, b, sus=None):
-    # wrapper: allows optional sustain, matches how you played 60 with sustain
+    # allows optional sustain, matches the sustained 60 note
     if sus is None:
         playNote(p, beats=b)
     else:
