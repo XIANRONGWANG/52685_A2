@@ -28,7 +28,7 @@ def one_bar():
 # PERFORMANCE ORDER
 
 
-r(8)        # wait before drums enter (your original rest(8))
+r(8)        # wait before drums enter (original rest(8))
 
 for _ in range(6):
     one_bar()
