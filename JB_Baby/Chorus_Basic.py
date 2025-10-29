@@ -11,7 +11,7 @@
 #   70 = A# (Bb)
 #   72 = C
 #
-# Tempo suggestion: ~130 BPM
+# Tempo: 130 BPM
 
 def n(p,b): playNote(p,beats=b)
 def r(b):   rest(b)
