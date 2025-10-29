@@ -15,6 +15,8 @@ Each `.py` file represents a coded musical part (piano, drums, or octave layer) 
 JB_Baby/      → Emotional pop composition (chorus, octaves)
 TWS_SNA/      → Technical rock riff (piano, drums)
 
+```
+
 Project/
 │
 ├── JB_Baby/                      # Justin Bieber – Baby (Pop/Emotive)
@@ -30,6 +32,10 @@ Project/
     ├── Drums_Ch_Structured.py    # Drum structure using loops
     ├── Piano_Ch.py               # Main riff in piano (MIDI 64–60 range)
     ├── Piano_Ch_Structured.py    # Structured version using functions
+
+
+```
+
 
 
 ## Learning Focus
