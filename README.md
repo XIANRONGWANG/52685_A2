@@ -10,6 +10,10 @@ Covers the chorus of two popular tracks using Python coding through Tunepad obje
 
 Each `.py` file represents a coded musical part (piano, drums, or octave layer) structured with **loops, functions, and abstraction**.
 
+Tunepad Projects:
+1. Seven Nation Army: https://tunepad.com/project/117864
+2. Baby: https://tunepad.com/project/117865
+
 ## Structure
 
 JB_Baby/      → Emotional pop composition (chorus, octaves)
