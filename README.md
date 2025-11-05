@@ -31,7 +31,7 @@ Project/
 │   ├── Higher_Octave.py                  # Upper octave (pitch +12 semitones)
 │   ├── Lower_Octave.py                   # Lower octave (pitch -12 semitones)
 │
-├──TWS_SNA/                              # The White Stripes – Seven Nation Army (Rock/Technical)
+├──TWS_SNA/                               # The White Stripes – Seven Nation Army (Rock/Technical)
 │   ├── Drums_Ch.py                       # Basic drum pattern
 │   ├── Drums_Ch_Structured.py            # Drum structure using loops
 │   ├── Piano_Ch.py                       # Main riff in piano (MIDI 64–60 range)
@@ -42,8 +42,8 @@ Project/
 │   ├── README.md
 │
 ├──Project Files/ 
-│   ├── Baby.json      # Project File
-│   ├── Seven_Nation_Army.json  
+│   ├── Baby.json                          # Project File
+│   ├── Seven_Nation_Army.json             # Project File
 │   ├── README.md
 │ 
 ├── README.md
